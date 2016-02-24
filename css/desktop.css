@@ -1,0 +1,183 @@
+.pick {
+	width: 60%;
+	height: 150px;
+	margin: 20px auto 50px;
+	background: #02240e;
+	max-width: 650px;
+}
+
+.pick a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.zip {
+	width: 250px;
+	height: 35px;
+	margin: 0 auto 30px auto;
+	background: white;
+	border-width: 25px;
+	border-color: black;
+	
+}
+
+h1 {
+	text-align: center;
+	color: #02240e;
+	font-family: 'Quattrocento', serif;
+	font-size: 3em;
+}
+
+.play {
+	width: 130px;
+	height: 130px;
+	background: white;
+	border-radius: 100%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.green {
+	width: 400px;
+	height: 50px;
+	margin: 0px auto 20px;
+	background: #02240e;
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	
+}
+
+.score {
+    border-radius: 25px;
+    background: white; 
+    width: 100px;
+    height: 50px;
+    text-align: center; 
+    padding-top: 15px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.score a {
+	font-size: 2em;
+	text-align: right;
+}
+
+.distance {
+	width: 80%;
+	height: 200px;
+	background: #b3cfcf;
+	opacity: 0.8; 
+	text-align: center;
+	margin: 100px auto auto auto;
+	padding-top: 100px;
+	font-size: 3em;
+}
+
+.number {
+	width: 80%;
+	height: 200px;
+	background: #b3cfcf;
+	opacity: 0.8; 
+	text-align: center;
+	margin: auto;
+	font-size: 5em;
+}
+
+#bird_img {
+  width: 100%;
+  max-width: 500px;
+  height: 700px;
+  background: url('../images/Barraband.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  margin: 25px auto auto auto;
+}
+
+h2 {
+	color: #02240e;
+	font-family: 'Quattrocento', serif;
+	font-size: 3em;	
+	text-align: left;
+	background:  #b3cfcf;
+	opacity: 0.8;
+}
+
+p {
+	color: #02240e;
+	font-family: 'Quattrocento', serif;
+	font-size: 1em;	
+	text-align: left;
+	background:  #b3cfcf;
+	opacity: 0.8;
+}
+ .description {
+	height: 70%;
+	padding: 10px 20px 20px 20px;
+	margin-top: 25px;
+	margin-left: -15px;
+	background:  #b3cfcf;
+	opacity: 0.8;
+ }
+
+/* ----------------- Start Grid for desktop screens ----------------- */
+
+@media (min-width: 960px) {
+
+.container {
+  position: relative;
+  width: 100%; /* max width of content */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+ }
+
+  .column,
+  .columns {
+    margin-left: 2.8977273%; /* column gutter */
+    float: left;
+    box-sizing: border-box;
+    }    
+  
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; } /* prevents first column from acquiring a gutter on its left: typography 101 */
+
+  .one.column,
+  .one.columns        { width: 7.3863636%;   }
+  .two.columns        { width: 17.6704545%;  }
+  .three.columns      { width: 27.9545454%;  }
+  .four.columns       { width: 38.2386363%;  }
+  .five.columns       { width: 48.5227272%;  }
+  .six.columns        { width: 58.8068181%;  }
+  .seven.columns      { width: 69.090909%;   }
+  .eight.columns      { width: 79.3749999%;  }
+  .nine.columns       { width: 89.6590908%;  }
+  .ten.columns        { width: 100%; margin-left: 0; }
+
+  .one-third.column   { width: 30.6666666667%; }
+  .two-thirds.column  { width: 65.3333333333%; }
+
+  .one-half.column    { width: 48%; }
+
+
+}
+/* ----------------- End Grid for desktop screens ----------------- */
+
+/* ----------------- Misc Grid Commands ----------------- */
+
+/* Self Clearing Goodness: Fixes Issues with Rows Overlapping due to flow: left; */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
