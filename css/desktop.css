@@ -22,7 +22,8 @@
 	background: white;
 	border-width: 25px;
 	border-color: black;
-	
+	text-align: center;
+	padding-top: 15px;
 }
 
 h1 {
@@ -32,16 +33,23 @@ h1 {
 	font-size: 3em;
 }
 
-.play {
+#playButton {
 	width: 130px;
 	height: 130px;
-	background: white;
+	background: url('../images/playButton.gif') no-repeat center center;
 	border-radius: 100%;
 	margin: auto;
-	margin-bottom: 25px;
+	margin-bottom: 55px;
 }
 
-.green {
+.random {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin: auto;
+}
+
+.greenBox1 {
 	width: 400px;
 	height: 50px;
 	margin: 0px auto 20px;
@@ -50,45 +58,124 @@ h1 {
 	color: white;
 	text-align: center;
 	padding-top: 25px;
+	text-decoration: none;
 	
 }
-
-.score {
-    border-radius: 25px;
-    background: white; 
-    width: 100px;
-    height: 50px;
-    text-align: center; 
-    padding-top: 15px;
-    position: relative;
-    margin: auto;
-    margin-bottom: 25px;
+.greenBox1 a {
+	text-decoration: none;
+	color: white;
 }
 
-.score a {
-	font-size: 2em;
-	text-align: right;
+.greenBox2 {
+	width: 400px;
+	height: 50px;
+	margin: 0px auto 20px;
+	background: #02240e;
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-top: 25px;	
 }
 
-.distance {
+.greenBox2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.greenBox3 {
+	width: 400px;
+	height: 50px;
+	margin: 0px auto 20px;
+	background: #02240e;
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.greenBox3 a {
+	text-decoration: none;
+	color: white;
+}
+
+.greenBox4 {
+	width: 400px;
+	height: 50px;
+	margin: 0px auto 20px;
+	background: #02240e;
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.greenBox4 a {
+	text-decoration: none;
+	color: white;
+}
+
+.travel {
+	width: 2700pxpx;
+	height: 500px;;
+}
+
+.correct {
 	width: 80%;
-	height: 200px;
+	height: 100%;
 	background: #b3cfcf;
-	opacity: 0.8; 
+	opacity: 0.8;
 	text-align: center;
 	margin: 100px auto auto auto;
-	padding-top: 100px;
 	font-size: 3em;
+	padding: 50px;
+	position: relative;
+}
+
+.correct a {
+	text-decoration: none;
+	color: black;
 }
 
 .number {
 	width: 80%;
-	height: 200px;
+	height: 40%;
 	background: #b3cfcf;
 	opacity: 0.8; 
 	text-align: center;
 	margin: auto;
 	font-size: 5em;
+	position: relative;
+	padding: 0px 50px 50px 50px;
+}
+
+.number a {
+	text-decoration: none;
+	color: black;
+}
+
+.nextButton {
+	width: 100px;
+	height: 100px;
+	background: url('../images/nextButton.gif') no-repeat center center;
+	border-radius: 100%;
+	margin: 50px auto 10px auto;
+	position: relative;
+}
+
+.homeButton {
+	width: 100px;
+	height: 50px;
+	background: white;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 45px;
+}
+
+.homeButton a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
 }
 
 #bird_img {
