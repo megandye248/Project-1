@@ -29,7 +29,7 @@ $(document).ready(function() {
 	});
 	
 	var audio1 = document.createElement('audio');
-		audio1.setAttribute('src', 'sounds/1.wav');
+		audio1.setAttribute('src', 'Sounds/1.wav');
 		
 	$('#sound1').click(function(){
 		audio1.play();
