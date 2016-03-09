@@ -1,9 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function() { 
 
 	$(function() {  
 		$('.greenBox1').click(function(){
     	$(this).css('background', '#30e964');
-
+ 
   		});
 	});
 	
@@ -23,8 +23,7 @@ $(document).ready(function() {
 	
 	$(function() {  
 		$('.greenBox4').click(function(){
-    	$(this).css('background', 'red');
-    	$(this).css('background', 'red'); 
+    	$(this).css('background', 'red');  
 
   		});
 	});

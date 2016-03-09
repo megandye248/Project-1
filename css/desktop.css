@@ -1,6 +1,6 @@
-.pick {
+.pick { 
 	width: 60%;
-	height: 150px;
+	height: 150px; 
 	margin: 20px auto 50px;
 	background: #02240e;
 	max-width: 650px;
@@ -22,8 +22,7 @@
 	background: white;
 	border-width: 25px;
 	border-color: black;
-	text-align: center;
-	padding-top: 15px;
+	text-align: center; 
 	padding-top: 15px; 
 }
 
