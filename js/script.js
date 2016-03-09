@@ -24,6 +24,7 @@ $(document).ready(function() {
 	$(function() {  
 		$('.greenBox4').click(function(){
     	$(this).css('background', 'red');
+    	$(this).css('background', 'red'); 
 
   		});
 	});
